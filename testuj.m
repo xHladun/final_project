@@ -18,4 +18,4 @@
     else
         disp('Nepodarilo sa najst optimalne riesenie');
     end
-
+quadratic_solution = vyries_optimalizaciu(quadratic_constraints_matrix, quadratic_constraints_vector, quadratic_linear_objective, quadratic_quadratic_objective);

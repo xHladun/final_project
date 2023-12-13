@@ -19,5 +19,5 @@ unction solution = vyries_optimalizaciu(constraints_matrix, constraints_vector, 
         disp('Infeasible problem.');
     end
 solver = 'nazov solvera'
+disp(['Použitý solver: ', yalmip('solver')]);
 end
-vyhodnotilkvadratick´y optimalizaˇcn´y probl´em.
