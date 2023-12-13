@@ -18,5 +18,6 @@ function solution = vyries_optimalizaciu(constraints_matrix, constraints_vector,
     else
         disp('Infeasible problem.');
     end
+solver = 'nazov solvera'
 end
 vyhodnotilkvadratick´y optimalizaˇcn´y probl´em.

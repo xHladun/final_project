@@ -1,8 +1,9 @@
  % Definovanie matic a vektorov pre optimalizacny problem
     constraints_matrix = [1, -1; 2, 1];
-    constraints_vector = [1; 2];
+    constraints_vector = [1; 2];dd
     constraints_vector1 = [1; 2; 3];
     linear_objective = [3; 4];
+   quadratic_objective = [1, -1; 2, 1];
     
     % Zavolanie funkcie vyries_optimalizaciu
     solution = vyries_optimalizaciu(constraints_matrix, constraints_vector, linear_objective);
