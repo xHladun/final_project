@@ -6,8 +6,7 @@
    quadratic_objective = [1, -1; 2, 1];
     
     % Zavolanie funkcie vyries_optimalizaciu
-    solution = vyries_optimalizaciu(constraints_matrix, constraints_vector, linear_objective);
-    
+    linear_solution = vyries_optimalizaciu(linear_constraints_matrix, linear_constraints_vector, linear_objective, []);
 % Zavolanie funkcie vyries_optimalizaciu
     solution1 = vyries_optimalizaciu(constraints_matrix, constraints_vector1, linear_objective);
 

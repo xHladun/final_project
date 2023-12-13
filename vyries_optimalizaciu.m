@@ -1,4 +1,4 @@
-function solution = vyries_optimalizaciu(constraints_matrix, constraints_vector, linear_objective, quadratic_objective)
+unction solution = vyries_optimalizaciu(constraints_matrix, constraints_vector, linear_objective, quadratic_objective)
     % Vyhodnotenie optimalizacneho problemu pomocou YALMIP toolboxu
     
     % Definovanie premennych
