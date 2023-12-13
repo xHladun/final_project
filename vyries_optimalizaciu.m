@@ -1,4 +1,4 @@
-function [solution] = vyries_optimalizaciu(constraints_matrix, constraints_vector, linear_objective)
+function solution = vyries_optimalizaciu(constraints_matrix, constraints_vector, linear_objective, quadratic_objective)
     % Vyhodnotenie optimalizacneho problemu pomocou YALMIP toolboxu
     
     % Definovanie premennych
@@ -19,3 +19,4 @@ function [solution] = vyries_optimalizaciu(constraints_matrix, constraints_vecto
         disp('Infeasible problem.');
     end
 end
+vyhodnotilkvadratick´y optimalizaˇcn´y probl´em.
