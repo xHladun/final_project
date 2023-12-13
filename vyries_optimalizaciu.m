@@ -13,9 +13,9 @@ function [solution] = vyries_optimalizaciu(constraints_matrix, constraints_vecto
     solution = optimize(constraints, objective, options);
     
     % Overenie, ci bolo riešenie nájdené
-    if solution.problem == 0
-        disp('Optimalne riesenie najdene');
+    if problem_is_solvable
+        disp('Successfully solved.');
     else
-        disp('Nepodarilo sa najst optimalne riesenie');
+        disp('Infeasible problem.');
     end
 end
